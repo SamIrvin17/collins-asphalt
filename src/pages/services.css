@@ -1,0 +1,47 @@
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* More separation between services */
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .service {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds subtle shadow */
+  }
+  
+  .service-title {
+    background-color: #ED2100;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .service-image {
+    width: 100%;
+    height: 450px; /* Increased height */
+    object-fit: cover;
+    margin-top: 10px;
+  }
+  
+  .service-description {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    font-size: 1rem;
+    min-height: 120px; /* Ensures uniform text background height */
+    display: flex;
+    align-items: center; /* Centers text vertically */
+    justify-content: center;
+  }
+  

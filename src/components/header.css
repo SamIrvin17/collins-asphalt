@@ -1,0 +1,78 @@
+.header {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .header .logo img {
+    width: 750px; /* Adjust size as needed */
+    height: auto;
+  }
+  
+  .header-top {
+    display: flex; /* Ensures horizontal alignment */
+    justify-content: center; /* Centers the elements inside the header-top */
+    align-items: center; /* Vertically centers the items */
+    gap: 20px; /* Adds space between location and phone number */
+  }
+  
+  .location, .phone-number {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between icon and text */
+    font-size: 1rem;
+    color: grey;
+    font-weight: bold;
+  }
+  
+  .location img, .phone-number img {
+    width: 20px; /* Adjust size as needed */
+    height: 20px;
+  }
+
+  .phone-number a {
+    color: #808080; /* Grey color for the phone number link */
+    text-decoration: none;
+  }
+  
+  .phone-number a:hover {
+    color: #ED2100; /* Red hover effect for the phone number */
+  }
+  
+  .nav {
+    background-color: #4a4a4a; /* Dark grey */
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 12px 16px;
+  }
+  
+  /* Hover effect for nav links */
+  .nav a:hover {
+    background-color: #ED2100; /* Red background on hover */
+    border-radius: 5px;
+  }
+  
+  /* Selected tab styling */
+  .nav a.selected {
+    background-color: #ED2100;
+    border-radius: 5px;
+  }
+  

@@ -1,0 +1,77 @@
+.hero {
+    position: relative;
+    width: 100vw; /* Full width of the viewport */
+    height: 80vh; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden; /* Prevents scrollbars */
+  }
+  
+  .hero-image {
+    width: 100vw; /* Ensures full width */
+    height: 100%; /* Ensures it covers the hero section height */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Places it behind text */
+  }
+  
+  .hero-text {
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 80%; /* Prevents text from stretching too wide */
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+  
+  .surrounding-areas {
+    background-color: #f4f4f4; /* Light background for the section */
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px; /* Adds space from previous sections */
+  }
+  
+  .surrounding-areas h2 {
+    font-size: 1.8rem;
+    color: #333; /* Dark grey for the header */
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .areas-list {
+    display: flex;
+    flex-direction: column; /* Arrange the items vertically */
+    align-items: flex-start; /* Left justify the items */
+    gap: 10px; /* Space between each area */
+    margin: 0 auto; /* Center the list horizontally */
+    max-width: 600px; /* Optional: limits the width of the list */
+  }
+  
+  .area {
+    display: flex;
+    align-items: center; /* Align bullet and text in one line */
+    gap: 8px; /* Space between the bullet and text */
+    font-size: 1.2rem;
+    color: #333; /* Text color */
+  }
+  
+  .bullet {
+    font-size: 1.5rem; /* Make the bullet a bit larger */
+    color: #ED2100; /* Red color for the bullet */
+  }
+  
+  
