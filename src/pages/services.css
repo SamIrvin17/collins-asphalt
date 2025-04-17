@@ -44,4 +44,34 @@
     align-items: center; /* Centers text vertically */
     justify-content: center;
   }
-  
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .services {
+    flex-direction: column; /* Stack services vertically */
+    gap: 20px; /* Reduce gap between services */
+  }
+
+  .service {
+    width: 90%; /* Make services take up most of the screen width */
+  }
+
+  .service-image {
+    height: 300px; /* Reduce image height for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .service-title {
+    font-size: 1.2rem; /* Smaller font size for titles */
+  }
+
+  .service-description {
+    font-size: 0.9rem; /* Smaller font size for descriptions */
+    padding: 15px;
+  }
+
+  .service-image {
+    height: 200px; /* Further reduce image height for very small screens */
+  }
+}
